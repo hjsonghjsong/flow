@@ -13,7 +13,7 @@ _types_ allow you to tell Flow how you want your code to work, and Flow will
 make sure it does work that way.
 
 ```js flow-check
-function square(n: number): number {
+function square(n: boolean): number {
   return n * n;
 }
 
